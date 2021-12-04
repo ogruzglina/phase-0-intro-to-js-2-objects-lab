@@ -29,4 +29,4 @@ function destructivelyDeleteFromEmployeeByKey(employee, key) {
     delete employee[key];
     return employee;
 }
-console.log(destructivelyUpdateEmployeeWithKeyAndValue(employee, "name"));
+console.log(destructivelyDeleteFromEmployeeByKey(employee, "name"));
